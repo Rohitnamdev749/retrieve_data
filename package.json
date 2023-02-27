@@ -1,6 +1,6 @@
 {
   "name": "retrieve_package",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A library to retrieve a data of a api",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

@@ -1,6 +1,7 @@
-import axios from "axios";
+
 export class Retrieve{
-    static async getData(){
+  static async getData(){
+      const axios = require('axios');
       //   const url = "https://jsonplaceholder.typicode.com/posts"
       //   return await axios({
       //     method: 'get',
