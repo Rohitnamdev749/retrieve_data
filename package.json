@@ -1,0 +1,33 @@
+{
+  "name": "retrieve_package",
+  "version": "1.0.0",
+  "description": "A library to retrieve a data of a api",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohitnamdev749/retrieve_data.git"
+  },
+  "keywords": [
+    "retrieve_data",
+    "get api data"
+  ],
+  "author": "Rohit N <rohitnamdev749@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rohitnamdev749/retrieve_data/issues"
+  },
+  "homepage": "https://github.com/Rohitnamdev749/retrieve_data#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.2",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  },
+  "files": ["lib/**/*"]
+}
